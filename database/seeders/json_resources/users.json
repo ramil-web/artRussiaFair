@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "username": "admin",
+        "email": "admin@synergy.ru",
+        "password": "z4p3QX/m"
+    },
+    {
+        "id": 2,
+        "username": "manager",
+        "email": "manager@synergy.ru",
+        "password": "password"
+    },
+    {
+        "id": 3,
+        "username": "commission",
+        "email": "manager2@synergy.ru",
+        "password": "password"
+    },
+    {
+        "id": 4,
+        "username": "participant",
+        "email": "participant@synergy.ru",
+        "password": "password"
+    },
+    {
+        "id": 5,
+        "username": "resident",
+        "email": "resident@synergy.ru",
+        "password": "password"
+    }
+]

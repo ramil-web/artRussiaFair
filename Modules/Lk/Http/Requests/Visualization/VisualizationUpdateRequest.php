@@ -1,0 +1,34 @@
+<?php
+
+namespace Lk\Http\Requests\Visualization;
+
+use Illuminate\Foundation\Http\FormRequest;
+use Lk\Rules\UserAccessRule;
+use Lk\Rules\UserApplicationAccessRule;
+
+class VisualizationUpdateRequest extends FormRequest
+{
+    /**
+     * Determine if the user is authorized to make this request.
+     *
+     * @return bool
+     */
+    public function authorize(): bool
+    {
+        return true;
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array<string, mixed>
+     */
+    public function rules(): array
+    {
+        return [
+            'id'                  => ['required', new UserAccessRule($this->id, 'Visualization')],
+            'user_application_id' => ['required', new UserApplicationAccessRule($this->user_application_id)],
+            'url'                 => 'nullable|array',
+        ];
+    }
+}

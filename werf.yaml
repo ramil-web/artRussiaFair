@@ -1,0 +1,69 @@
+{{ $_ := env "CI_PROJECT_PATH_SLUG"  | trunc 49 | trimSuffix "-" | set . "ProjectName" }}
+---
+configVersion: 1
+project: {{ .ProjectName }}
+cleanup:
+  keepPolicies:
+    - references:
+        tag: /.*/
+        limit:
+          last: 2
+    - references:
+        branch: /.*/
+        limit:
+          last: 2
+          operator: And
+      imagesPerReference:
+        last: 2
+        operator: And
+    - references:
+        branch: /^(master)$/
+      imagesPerReference:
+        last: 2
+---
+image: nginx
+from: hub.synergy.ru/common-images/nginx-brotli:v1.19.10-latest
+git:
+  - add: /public
+    to: /var/www/html/public
+docker:
+  WORKDIR: /var/www/html
+---
+image: php_fpm
+from: hub.synergy.ru/common-images/php-fpm-common:v8.2-latest
+git:
+  - add: /
+    to: /var/www/html
+    excludePaths:
+      - werf.yaml
+      - werf-giterminism.yaml
+      - .gitlab-ci.yml
+      - .helm
+    stageDependencies:
+      install:
+        - composer.json
+        - composer.lock
+  - add: /.helm/cmd/php-fpm
+    to: /
+    stageDependencies:
+      beforeSetup:
+        - "**/*"
+docker:
+  WORKDIR: /var/www/html
+  ENTRYPOINT:
+    - /entrypoint.sh
+  CMD:
+    - php-fpm 
+  USER: www-data
+shell:
+  beforeInstall:
+    - mkdir /php-conf
+    - ln -s /php-conf/php.ini /usr/local/etc/php/php.ini
+  install:
+    - cd /var/www/html
+    - echo "Run composer"
+    - composer install
+  beforeSetup:
+    - chmod +x /*.sh
+    - chown -R www-data:www-data /var/www/html
+---

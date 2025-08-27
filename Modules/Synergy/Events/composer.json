@@ -1,0 +1,59 @@
+{
+    "name": "synergy/events",
+    "version": "1.0.0",
+    "description": "Add events and eventgable behaviour to your Laravel app",
+    "keywords": [
+        "synergy",
+        "synergy-events"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "",
+            "email": "",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^8.67|^9.0|^10.0",
+        "nesbot/carbon": "^2.63",
+        "spatie/eloquent-sortable": "^3.10|^4.0",
+        "spatie/laravel-package-tools": "^1.4",
+        "spatie/laravel-translatable": "^6.5"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.13|^7.0|^8.0",
+        "pestphp/pest": "^1.22",
+        "phpunit/phpunit": "^9.5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Synergy\\Events\\": "src"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Synergy\\Events\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Synergy\\Events\\EventsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

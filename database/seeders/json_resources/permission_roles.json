@@ -1,0 +1,88 @@
+{
+    "manager": {
+        "person": [
+            "view",
+            "create",
+            "update",
+            "delete",
+            "softDelete",
+            "restore",
+            "import",
+            "export"
+        ],
+        "order": [
+            "view",
+            "create",
+            "update",
+            "delete",
+            "softDelete",
+            "restore",
+            "import",
+            "export"
+        ],
+        "event": [
+            "view",
+            "create",
+            "update",
+            "delete",
+            "softDelete",
+            "restore",
+            "import",
+            "export"
+        ],
+        "user": [
+            "view",
+            "view-self"
+        ]
+    },
+    "commission": {
+        "user_app": [
+            "view",
+            "asses"
+        ],
+        "order": [
+            "view",
+            "create",
+            "update",
+            "delete",
+            "softDelete",
+            "restore",
+            "import",
+            "export"
+        ],
+        "user": [
+            "view",
+            "update",
+            "delete",
+            "softDelete",
+            "restore",
+            "import",
+            "export",
+            "view-self"
+        ]
+    },
+    "participant": {
+        "order": [
+            "view-self",
+            "create",
+            "update-self",
+            "delete-self"
+        ],
+        "user": [
+            "update-self",
+            "view-self"
+        ]
+    },
+    "resident": {
+        "order": [
+            "view-self",
+            "create",
+            "update-self",
+            "delete-self"
+        ],
+        "user": [
+            "update-self",
+            "view-self"
+        ]
+    }
+}

@@ -1,0 +1,546 @@
+[
+    {
+        "name": "Арт. 02-323WT",
+        "description": "ЛДСП, ЛМДФ / Белый",
+        "image": "1.jpg",
+        "category_id": 1,
+        "price": 1780,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "120 см."
+            },
+            {
+                "name": "Высота",
+                "value": "75 см."
+            },
+            {
+                "name": "Глубина",
+                "value": "75 см."
+            }
+        ]
+    },
+    {
+        "name": "Арт. 02-323BK",
+        "description": "ЛДСП, ЛМДФ / Черный",
+        "image": "2.jpg",
+        "category_id": 1,
+        "price": 1780,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "120 см."
+            },
+            {
+                "name": "Высота",
+                "value": "75 см."
+            },
+            {
+                "name": "Глубина",
+                "value": "75 см."
+            }
+        ]
+    },
+    {
+        "name": "Арт. 02-015",
+        "description": "Стекло / Прозрачный, хром, серебро",
+        "image": "3.jpg",
+        "category_id": 1,
+        "price": 2100,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "120 см."
+            },
+            {
+                "name": "Высота",
+                "value": "75 см."
+            },
+            {
+                "name": "Глубина",
+                "value": "75 см."
+            }
+        ]
+    },
+    {
+        "name": "Арт. 02-212WT",
+        "description": "ЛДСП, ЛМДФ / Белый",
+        "image": "4.jpg",
+        "category_id": 1,
+        "price": 1940,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "70 см."
+            },
+            {
+                "name": "Высота",
+                "value": "74 см."
+            }
+        ]
+    },
+    {
+        "name": "Арт. 02-213",
+        "description": "ЛДСП, ЛМДФ / Белый",
+        "image": "5.jpg",
+        "category_id": 1,
+        "price": 2500,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "70 см."
+            },
+            {
+                "name": "Высота",
+                "value": "75 см."
+            },
+            {
+                "name": "Глубина",
+                "value": "70 см."
+            }
+        ]
+    },
+    {
+        "name": "Арт. 02-034",
+        "description": "ЛДСП, ЛМДФ / Белый",
+        "image": "6.jpg",
+        "category_id": 1,
+        "price": 1860,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "70 см."
+            },
+            {
+                "name": "Высота",
+                "value": "58 см."
+            },
+            {
+                "name": "Глубина",
+                "value": "70 см."
+            }
+        ]
+    },
+    {
+        "name": "Арт. 02-035",
+        "description": "ЛДСП, ЛМДФ / Белый",
+        "image": "7.jpg",
+        "category_id": 1,
+        "price": 1920,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "120 см."
+            },
+            {
+                "name": "Высота",
+                "value": "58 см."
+            },
+            {
+                "name": "Глубина",
+                "value": "70 см."
+            }
+        ]
+    },
+
+
+    {
+        "name": "Арт. 01-090BK",
+        "description": "Экокожа / Черный",
+        "image": "8.jpg",
+        "category_id": 2,
+        "price": 380,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "54 см."
+            },
+            {
+                "name": "Высота",
+                "value": "80 см."
+            },
+            {
+                "name": "Глубина",
+                "value": "60 см."
+            },
+            {
+                "name": "Высота сиденья",
+                "value": "44 см."
+            }
+        ]
+    },
+    {
+        "name": "Арт. 01-090PL",
+        "description": "Экокожа / Бежевый",
+        "image": "9.jpg",
+        "category_id": 2,
+        "price": 380,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "54 см."
+            },
+            {
+                "name": "Высота",
+                "value": "80 см."
+            },
+            {
+                "name": "Глубина",
+                "value": "60 см."
+            },
+            {
+                "name": "Высота сиденья",
+                "value": "44 см."
+            }
+        ]
+    },
+    {
+        "name": "Арт. 01-007BK",
+        "description": "Дерево, фанера / Черный",
+        "image": "10.jpg",
+        "category_id": 2,
+        "price": 1080,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "52 см."
+            },
+            {
+                "name": "Высота",
+                "value": "89 см."
+            },
+            {
+                "name": "Глубина",
+                "value": "55 см."
+            },
+            {
+                "name": "Высота сиденья",
+                "value": "46 см."
+            }
+        ]
+    },
+    {
+        "name": "Арт. 01-007WT",
+        "description": "Дерево, фанера / Белый",
+        "image": "11.jpg",
+        "category_id": 2,
+        "price": 1080,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "52 см."
+            },
+            {
+                "name": "Высота",
+                "value": "89 см."
+            },
+            {
+                "name": "Глубина",
+                "value": "55 см."
+            },
+            {
+                "name": "Высота сиденья",
+                "value": "46 см."
+            }
+        ]
+    },
+
+
+    {
+        "name": "Арт. 03-105WT",
+        "description": "Экокожа / Белый / Двухместный",
+        "image": "12.jpg",
+        "category_id": 3,
+        "price": 4280,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "146 см."
+            },
+            {
+                "name": "Высота",
+                "value": "72 см."
+            },
+            {
+                "name": "Глубина",
+                "value": "78 см."
+            }
+        ]
+    },
+    {
+        "name": "Арт. 03-105BK",
+        "description": "Экокожа / Черный / Двухместный",
+        "image": "13.jpg",
+        "category_id": 3,
+        "price": 3600,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "146 см."
+            },
+            {
+                "name": "Высота",
+                "value": "72 см."
+            },
+            {
+                "name": "Глубина",
+                "value": "78 см."
+            }
+        ]
+    },
+    {
+        "name": "Арт. 03-088WT",
+        "description": "Экокожа / Белый / Трехместный",
+        "image": "14.jpg",
+        "category_id": 3,
+        "price": 5780,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "205 см."
+            },
+            {
+                "name": "Высота",
+                "value": "72 см."
+            },
+            {
+                "name": "Глубина",
+                "value": "78 см."
+            }
+        ]
+    },
+    {
+        "name": "Арт. 03-088BK",
+        "description": "Экокожа / Черный / Трехместный",
+        "image": "15.jpg",
+        "category_id": 3,
+        "price": 5520,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "205 см."
+            },
+            {
+                "name": "Высота",
+                "value": "72 см."
+            },
+            {
+                "name": "Глубина",
+                "value": "78 см."
+            }
+        ]
+    },
+
+
+    {
+        "name": "Арт. 04-023WT",
+        "description": "Экокожа / Белый",
+        "image": "16.jpg",
+        "category_id": 4,
+        "price": 2860,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "87 см."
+            },
+            {
+                "name": "Высота",
+                "value": "72 см."
+            },
+            {
+                "name": "Глубина",
+                "value": "78 см."
+            }
+        ]
+    },
+    {
+        "name": "Арт. 04-023BK",
+        "description": "Экокожа / Черный",
+        "image": "17.jpg",
+        "category_id": 4,
+        "price": 2860,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "87 см."
+            },
+            {
+                "name": "Высота",
+                "value": "72 см."
+            },
+            {
+                "name": "Глубина",
+                "value": "78 см."
+            }
+        ]
+    },
+    {
+        "name": "Арт. 04-094WT",
+        "description": "Экокожа / Белый",
+        "image": "18.jpg",
+        "category_id": 4,
+        "price": 4500,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "63 см."
+            },
+            {
+                "name": "Высота",
+                "value": "78 см."
+            },
+            {
+                "name": "Глубина",
+                "value": "59 см."
+            },
+            {
+                "name": "Высота сиденья",
+                "value": "47 см."
+            }
+        ]
+    },
+    {
+        "name": "Арт. 04-094BK",
+        "description": "Экокожа / Черный",
+        "image": "19.jpg",
+        "category_id": 4,
+        "price": 3100,
+        "properties" : [
+            {
+                "name": "Ширина",
+                "value": "63 см."
+            },
+            {
+                "name": "Высота",
+                "value": "78 см."
+            },
+            {
+                "name": "Глубина",
+                "value": "59 см."
+            },
+            {
+                "name": "Высота сиденья",
+                "value": "47 см."
+            }
+        ]
+    },
+
+
+    {
+        "name": "СПОТ",
+        "description": "На шинопроводе / 50 Вт",
+        "image": "20.svg",
+        "category_id": 5,
+        "price": 1700
+    },
+
+
+    {
+        "name": "До 1000 Вт",
+        "description": "220 В, Стандарт",
+        "image": "21.svg",
+        "category_id": 6,
+        "price": 830
+    },
+    {
+        "name": "До 1000 Вт",
+        "description": "220 В, Стандарт, 24 часа",
+        "image": "22.svg",
+        "category_id": 6,
+        "price": 885
+    },
+    {
+        "name": "До 1500 Вт",
+        "description": "220 В",
+        "image": "23.svg",
+        "category_id": 6,
+        "price": 1000
+    },
+    {
+        "name": "До 1500 Вт",
+        "description": "220 В, 24 часа",
+        "image": "24.svg",
+        "category_id": 6,
+        "price": 1070
+    },
+    {
+        "name": "До 2500 Вт",
+        "description": "220 В",
+        "image": "25.svg",
+        "category_id": 6,
+        "price": 1070
+    },
+    {
+        "name": "До 2500 Вт",
+        "description": "220 В, 24 часа",
+        "image": "26.svg",
+        "category_id": 6,
+        "price": 1280
+    },
+
+
+    {
+        "name": "Тележка на колесах",
+        "description": "Стоимость за 30 минут",
+        "image": "27.svg",
+        "category_id": 7,
+        "price": 800
+    },
+    {
+        "name": "Тележка (рохля)",
+        "description": "Стоимость за 30 минут",
+        "image": "28.svg",
+        "category_id": 7,
+        "price": 1300
+    },
+    {
+        "name": "Грузчик с тележкой",
+        "description": "Без отвественности за груз, Стоимость за 30 минут",
+        "image": "29.svg",
+        "category_id": 7,
+        "price": 1900
+    },
+    {
+        "name": "Грузчик с тележкой",
+        "description": "С ответственностью за груз, Стоимость за 30 минут",
+        "image": "30.svg",
+        "category_id": 7,
+        "price": 3200
+    },
+    {
+        "name": "Монтаж выставочного стенда",
+        "description": "Стоимость за 1 час",
+        "image": "34.svg",
+        "category_id": 7,
+        "price": 1000
+    },
+    {
+        "name": "Регулировщик света",
+        "description": "Стоимость за 1 час",
+        "image": "35.svg",
+        "category_id": 7,
+        "price": 1000
+    },
+
+    {
+        "name": "С фиксированного места",
+        "description": "По соответсвующему графику, 15 мин",
+        "image": "31.svg",
+        "category_id": 8,
+        "price": 0
+    },
+    {
+        "name": "Из автомобиля",
+        "description": "за 100 кг",
+        "image": "32.svg",
+        "category_id": 8,
+        "price": 1000
+    },
+    {
+        "name": "Погрузчик вилочный (г/п до 2,5 тонн)",
+        "description": "До 30 мин",
+        "image": "33.svg",
+        "category_id": 8,
+        "price": 3900
+    }
+]

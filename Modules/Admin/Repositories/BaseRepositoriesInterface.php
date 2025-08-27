@@ -1,0 +1,41 @@
+<?php
+
+namespace Admin\Repositories;
+
+use Illuminate\Database\Eloquent\Model;
+
+interface BaseRepositoriesInterface
+{
+    public function getAllByFilters(
+        array $withRelation = [],
+        array $allowedFilters = [],
+        array $allowedFields = [],
+        array $allowedIncludes = [],
+        array $allowedSorts = [],
+        int $perPage = null
+    );
+
+    public function create(array $Data);
+
+    public function update(Model $model, array $Data): ?bool;
+
+    public function findById(
+        int $modelId,
+        array $withRelation = [],
+        array $allowedFields = [],
+        array $allowedIncludes = [],
+        bool $withTrashed = false
+    ): ?Model;
+
+    public function getSelf(): ?Model;
+
+    public function updateSelf(): ?Model;
+
+    public function softDelete(Model $model): bool;
+
+    public function restore(Model $model): bool;
+
+    public function forceDelete(Model $model): bool;
+
+
+}

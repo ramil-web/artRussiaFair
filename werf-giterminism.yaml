@@ -1,0 +1,7 @@
+giterminismConfigVersion: 1
+config:
+  goTemplateRendering:
+    allowEnvVariables:
+      - CI_PROJECT_PATH_SLUG
+  stapel:
+    allowFromLatest: true

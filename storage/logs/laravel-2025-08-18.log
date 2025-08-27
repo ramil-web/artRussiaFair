@@ -1,0 +1,74 @@
+[2025-08-18 09:58:51] local.INFO: array (
+  0 => 
+  (object) array(
+     'QUERY PLAN' => 'Sort  (cost=11.52..11.52 rows=1 width=220) (actual time=2.743..2.745 rows=2 loops=1)',
+  ),
+  1 => 
+  (object) array(
+     'QUERY PLAN' => '  Sort Key: user_applications.created_at DESC',
+  ),
+  2 => 
+  (object) array(
+     'QUERY PLAN' => '  Sort Method: quicksort  Memory: 25kB',
+  ),
+  3 => 
+  (object) array(
+     'QUERY PLAN' => '  ->  Hash Join  (cost=2.26..11.51 rows=1 width=220) (actual time=1.892..1.903 rows=2 loops=1)',
+  ),
+  4 => 
+  (object) array(
+     'QUERY PLAN' => '        Hash Cond: (user_applications.event_id = events.id)',
+  ),
+  5 => 
+  (object) array(
+     'QUERY PLAN' => '        ->  Seq Scan on user_applications  (cost=0.00..1.05 rows=5 width=212) (actual time=0.379..0.384 rows=5 loops=1)',
+  ),
+  6 => 
+  (object) array(
+     'QUERY PLAN' => '        ->  Hash  (cost=2.25..2.25 rows=1 width=8) (actual time=0.652..0.652 rows=3 loops=1)',
+  ),
+  7 => 
+  (object) array(
+     'QUERY PLAN' => '              Buckets: 1024  Batches: 1  Memory Usage: 9kB',
+  ),
+  8 => 
+  (object) array(
+     'QUERY PLAN' => '              ->  Seq Scan on events  (cost=0.00..2.25 rows=1 width=8) (actual time=0.631..0.633 rows=3 loops=1)',
+  ),
+  9 => 
+  (object) array(
+     'QUERY PLAN' => '                    Filter: ((deleted_at IS NULL) AND ((category)::text = \'classic\'::text))',
+  ),
+  10 => 
+  (object) array(
+     'QUERY PLAN' => '                    Rows Removed by Filter: 17',
+  ),
+  11 => 
+  (object) array(
+     'QUERY PLAN' => '        SubPlan 1',
+  ),
+  12 => 
+  (object) array(
+     'QUERY PLAN' => '          ->  Aggregate  (cost=8.17..8.18 rows=1 width=8) (actual time=0.025..0.025 rows=1 loops=2)',
+  ),
+  13 => 
+  (object) array(
+     'QUERY PLAN' => '                ->  Index Only Scan using idx_visualizations_user_app_del on visualizations  (cost=0.15..8.17 rows=1 width=0) (actual time=0.019..0.019 rows=0 loops=2)',
+  ),
+  14 => 
+  (object) array(
+     'QUERY PLAN' => '                      Index Cond: ((user_application_id = user_applications.id) AND (deleted_at IS NULL))',
+  ),
+  15 => 
+  (object) array(
+     'QUERY PLAN' => '                      Heap Fetches: 0',
+  ),
+  16 => 
+  (object) array(
+     'QUERY PLAN' => 'Planning Time: 32.370 ms',
+  ),
+  17 => 
+  (object) array(
+     'QUERY PLAN' => 'Execution Time: 3.144 ms',
+  ),
+)  
